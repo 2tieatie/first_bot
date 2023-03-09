@@ -3,14 +3,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-BOT_TOKEN = '5733192318:AAGJAH6rAfxPaVvgeL2bjMmLmiY-_SSiR54'
+BOT_TOKEN = 'bot_token'
 
 admins_id = [
-    720207278
+    int("admins_id")
 ]
 IP = 'localhost'
 PGUSER = 'postgres'
-PGPASSWORD = 'adminpass123'
+PGPASSWORD = 'data_base_password'
 DATABASE = 'gino'
 POSTGRES_URI = f'postgresql://postgres:adminpass123@localhost/gino'
 
